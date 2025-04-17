@@ -1,11 +1,19 @@
 <template>
   <div>
+    <Navbar />
+    <main class="container my-5">
+      <Hero />
+    </main>
     <CurrentEvent />
+    <Footer />
   </div>
 </template>
 
 <script setup>
 import CurrentEvent from './components/CurrentEvent.vue'
+import Navbar from './components/Navbar.vue'
+import Hero from './components/Hero.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <!-- <script setup>
